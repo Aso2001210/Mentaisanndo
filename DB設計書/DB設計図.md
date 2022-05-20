@@ -15,7 +15,7 @@
 |omiyage_code|int(10)|○|○||
 |omiyage_name|varchar(100) ||○||
 |price|int(10)||○||
-|category_id|int(10)|○|○||
+|category_id|int(10)||○|○|
 |image|varchar(200)||○||
 |reg_date|datetime||○||
 
@@ -26,5 +26,5 @@
 |kannkouti_code|int(10)|○|○||
 |kankouti_name|varchar(100)||○||
 |image|varchar(500)||○||
-|category_id|int(10)|○|○||
+|category_id|int(10)||○|○|
 |reg_date|datetime||○||
