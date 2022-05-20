@@ -45,12 +45,6 @@ package "ECサイト" as target_system {
         reg_date
     }
   }
-  
-         |o-ri-o{     
-order          ||-ri-|{     order_detail
-order_detail    }-do-||     items
-         }o-le-||     
-
 
 @enduml
 ```
