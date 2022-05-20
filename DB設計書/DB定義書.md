@@ -32,5 +32,5 @@
 |観光地コード|kankouti_code|int(10)|○|○||
 |観光地名|kankouti_name|varchar(100)||○||
 |画像|image|varchar(500)||○||
-|カテゴリーID|category_id|varchar(10)|○|○||
+|カテゴリーID|category_id|int(10)|○|○||
 |登録日|reg_date|datetime||○||
