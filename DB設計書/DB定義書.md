@@ -22,7 +22,7 @@
 |お土産名|omiyage_name|varchar(100) ||○||
 |価格|price|int(10)||○||
 |カテゴリーID|category_id|int(10)|○|○||
-|画像|image|varchar(200)||||
+|画像|image|varchar(200)||○||
 |登録日|reg_date|datetime||○||
 
 ## 観光地マスタ(kankouti)
