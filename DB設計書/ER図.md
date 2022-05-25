@@ -68,7 +68,6 @@ package "ECサイト" as target_system {
         image_4
         link
   }
-  }
  customer       |o-ri-o{     order
 order          ||-ri-|{     order_detail
 @enduml
