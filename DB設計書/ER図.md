@@ -54,20 +54,6 @@ package "ECサイト" as target_system {
         image_4
         link
     }
-    
-    entity "お気に入りマスタ" as order_detail  <okiniiri> <<M,TRANSACTION_MARK_COLOR>> {
-        + kankouti_code [PK]
-        --
-        # category_id [FK]
-        kankouti_name
-        main_image
-        reg_date
-        image_1
-        image_2
-        image_3
-        image_4
-        link
-  }
   
 }
  customer       |o-ri-o{     order
