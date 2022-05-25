@@ -32,8 +32,13 @@ package "ECサイト" as target_system {
         # kategory_id [FK]
         omiyage_name
         price
-        image
+        main_image
         reg_date
+        image_1
+        image_2
+        image_3
+        image_4
+        link
     }
     
     entity "観光地マスタ" as order_detail  <kankouti> <<T,TRANSACTION_MARK_COLOR>> {
@@ -41,9 +46,28 @@ package "ECサイト" as target_system {
         --
         # category_id [FK]
         kankouti_name
-        image
+        main_image
         reg_date
+        image_1
+        image_2
+        image_3
+        image_4
+        link
     }
+    
+    entity "お気に入りマスタ" as order_detail  <kankouti> <<T,TRANSACTION_MARK_COLOR>> {
+        + kankouti_code [PK]
+        --
+        # category_id [FK]
+        kankouti_name
+        main_image
+        reg_date
+        image_1
+        image_2
+        image_3
+        image_4
+        link
+  }
   }
  customer       |o-ri-o{     order
 order          ||-ri-|{     order_detail
