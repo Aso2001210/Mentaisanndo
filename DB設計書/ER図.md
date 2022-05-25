@@ -29,7 +29,7 @@ package "ECサイト" as target_system {
     entity "お土産マスタ" as omiyage <omiyage> <<T,TRANSACTION_MARK_COLOR>> {
         + omiyage_code [PK]
         --
-        # kategory_id [FK]
+        # category_id [FK]
         omiyage_name
         price
         main_image
