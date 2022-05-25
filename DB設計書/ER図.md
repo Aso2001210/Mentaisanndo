@@ -70,7 +70,7 @@ package "ECサイト" as target_system {
     }
     
 }
-customer       |o-ri-o{     order
-order          ||-ri-|{     order_detail
+category      |o-ri-o{     omiyage
+kankouti        ||-ri-|{     okiniiri
 @enduml
 ```
