@@ -19,14 +19,14 @@ package "ECサイト" as target_system {
       １文字なら "主" とか "従" まど日本語でも記載可能
      '/
 
-    entity "カテゴリーマスタ" as customer <category> <<M,MASTER_MARK_COLOR>> {
+    entity "カテゴリーマスタ" as category <category> <<M,MASTER_MARK_COLOR>> {
         + customer_code [PK]
         + category_name [PK]
         --
         reg_date
     }
     
-    entity "お土産マスタ" as order <omiyage> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "お土産マスタ" as omiyage <omiyage> <<T,TRANSACTION_MARK_COLOR>> {
         + omiyage_code [PK]
         --
         # kategory_id [FK]
@@ -41,7 +41,7 @@ package "ECサイト" as target_system {
         link
     }
     
-    entity "観光地マスタ" as order_detail  <kankouti> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "観光地マスタ" as kankouti  <kankouti> <<T,TRANSACTION_MARK_COLOR>> {
         + kankouti_code [PK]
         --
         # category_id [FK]
@@ -55,7 +55,7 @@ package "ECサイト" as target_system {
         link
     }
     
-    entity "お気に入りマスタ" as order_detail  <okiniiri> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "お気に入りマスタ" as okiniiri  <okiniiri> <<T,TRANSACTION_MARK_COLOR>> {
         + kankouti_code [PK]
         --
         # category_id [FK]
