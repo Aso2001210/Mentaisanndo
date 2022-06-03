@@ -27,10 +27,10 @@ package "ECサイト" as target_system {
     }
     
     entity "お土産マスタ" as omiyage <omiyage> <<T,TRANSACTION_MARK_COLOR>> {
-        + omiyage_code [PK]
+        + id [PK]
         --
         # category_id [FK]
-        omiyage_name
+        name
         price
         main_image
         reg_date
@@ -42,10 +42,10 @@ package "ECサイト" as target_system {
     }
     
     entity "観光地マスタ" as kankouti  <kankouti> <<T,TRANSACTION_MARK_COLOR>> {
-        + kankouti_code [PK]
+        + id [PK]
         --
         # category_id [FK]
-        kankouti_name
+        name
         main_image
         reg_date
         image_1
@@ -56,10 +56,10 @@ package "ECサイト" as target_system {
     }
     
     entity "お気に入りマスタ" as okiniiri  <okiniiri> <<T,TRANSACTION_MARK_COLOR>> {
-        + kankouti_code [PK]
+        + id [PK]
         --
         # category_id [FK]
-        kankouti_name
+        name
         main_image
         reg_date
         image_1
