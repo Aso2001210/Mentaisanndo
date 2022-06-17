@@ -19,54 +19,47 @@ package "ECサイト" as target_system {
       １文字なら "主" とか "従" まど日本語でも記載可能
      '/
 
-    entity "カテゴリーマスタ" as category <category> <<M,MASTER_MARK_COLOR>> {
-        + customer_code [PK]
-        + category_name [PK]
+entity "おすすめマスタ" as recommendation <recommendation> <<M,MASTER_MARK_COLOR>> {
+        + id [PK]
         --
+        name
+        image
         reg_date
     }
     
-    entity "お土産マスタ" as omiyage <omiyage> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "" as gurume <gurume> <<T,TRANSACTION_MARK_COLOR>> {
         + id [PK]
         --
-        # category_id [FK]
         name
-        price
-        main_image
+        image
         reg_date
-        image_1
-        image_2
-        image_3
-        image_4
-        link
     }
     
-    entity "観光地マスタ" as kankouti  <kankouti> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "お土産マスタ" as souvenir <souvenir> <<T,TRANSACTION_MARK_COLOR>> {
         + id [PK]
         --
-        # category_id [FK]
         name
-        main_image
+        image
         reg_date
-        image_1
-        image_2
-        image_3
-        image_4
-        link
     }
     
-    entity "お気に入りマスタ" as okiniiri  <okiniiri> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "トップページマスタ" as top_page  <top_page> <<T,TRANSACTION_MARK_COLOR>> {
+        + name [PK]
+        --
+        summary
+        main_image
+        link1
+        link2
+        image
+        image2
+        image3
+    }
+     entity "観光地マスタ" as tourist_list <tourist_list> <<T,TRANSACTION_MARK_COLOR>> {
         + id [PK]
         --
-        # category_id [FK]
         name
-        main_image
+        image
         reg_date
-        image_1
-        image_2
-        image_3
-        image_4
-        link
     }
     
 }
