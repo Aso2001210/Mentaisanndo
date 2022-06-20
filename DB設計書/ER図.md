@@ -66,5 +66,6 @@ entity "おすすめマスタ" as recommendation <recommendation> <<M,MASTER_MAR
 recommendation     ||-ri-|{     top_page
 top_page           }|-ri-||     tourist_list
 souvenir           ||-u-|{      top_page
+gurume           ||-u-|{      top_page
 @enduml
 ```
