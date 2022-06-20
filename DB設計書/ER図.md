@@ -19,7 +19,7 @@ package "ECサイト" as target_system {
       １文字なら "主" とか "従" まど日本語でも記載可能
      '/
 
-entity "おすすめマスタ" as recommendation <recommendation> <<M,MASTER_MARK_COLOR>> {
+entity "おすすめマスタ" as recommendation <recommendation> <<T,TRANSACTION_MARK_COLOR>> {
         + id [PK]
         --
         name
@@ -43,7 +43,7 @@ entity "おすすめマスタ" as recommendation <recommendation> <<M,MASTER_MAR
         reg_date
     }
     
-    entity "トップページマスタ" as top_page  <top_page> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "トップページマスタ" as top_page  <top_page> <<M,MASTER_MARK_COLOR>> {
         + name [PK]
         --
         summary
