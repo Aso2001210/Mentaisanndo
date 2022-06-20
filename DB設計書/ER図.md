@@ -63,8 +63,8 @@ entity "おすすめマスタ" as recommendation <recommendation> <<M,MASTER_MAR
     }
     
 }
-omiyage     ||-ri-|{     category
-category    }|-ri-||     kankouti
-okiniiri    ||-u-|{      category
+recommendation     ||-ri-|{     top_page
+top_page           }|-ri-||     tourist_list
+souvenir           ||-u-|{      top_page
 @enduml
 ```
