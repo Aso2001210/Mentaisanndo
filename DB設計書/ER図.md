@@ -27,7 +27,7 @@ entity "おすすめマスタ" as recommendation <recommendation> <<M,MASTER_MAR
         reg_date
     }
     
-    entity "" as gurume <gurume> <<T,TRANSACTION_MARK_COLOR>> {
+    entity "グルメマスタ" as gurume <gurume> <<T,TRANSACTION_MARK_COLOR>> {
         + id [PK]
         --
         name
