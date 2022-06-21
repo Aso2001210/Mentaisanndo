@@ -33,6 +33,7 @@ entity "おすすめマスタ" as recommendation <recommendation> <<T,TRANSACTIO
         name
         image
         reg_date
+        type
     }
     
     entity "お土産マスタ" as souvenir <souvenir> <<T,TRANSACTION_MARK_COLOR>> {
@@ -41,6 +42,7 @@ entity "おすすめマスタ" as recommendation <recommendation> <<T,TRANSACTIO
         name
         image
         reg_date
+        type
     }
     
     entity "トップページマスタ" as top_page  <top_page> <<M,MASTER_MARK_COLOR>> {
@@ -60,6 +62,7 @@ entity "おすすめマスタ" as recommendation <recommendation> <<T,TRANSACTIO
         name
         image
         reg_date
+        type
     }
     
 }
