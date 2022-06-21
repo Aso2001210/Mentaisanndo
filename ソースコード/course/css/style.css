@@ -1,0 +1,43 @@
+.title1{
+    font-size: 40px;
+    margin: 0 0 0 20px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex .image{
+    width: 700px;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.flex .right{
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.flex .title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.flex .text{
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.v_line_left {
+    border-left: thick solid black;
+    padding-left: 10px;
+}
