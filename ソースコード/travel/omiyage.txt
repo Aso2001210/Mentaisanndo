@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>omiyage-insert</title>
+    <style>
+        .example5{
+            padding: 30px;
+            border: 1px solid #333;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h1 ><a href="toppage.php" class="title">三度の飯より明太子</a></h1>
+<a href=""><button type="submit" class="btn" style="position: absolute; width: 130px; height: 40px; right: 900px; top: 70px">観光</button></a>
+<a href=""><button type="submit" class="btn2" style="position: absolute; width: 130px; height: 40px; right: 700px; top: 70px">グルメ・郷土料理</button></a>
+<a href=""><button type="submit" class="btn2" style="position: absolute;width: 130px; height: 40px; right: 500px; top: 70px">お土産</button></a><br>
+<a href=""><button type="submit" class="btn2" style="position: absolute;width: 130px; height: 40px; right: 300px; top: 70px">おすすめコース</button></a><br>
+<a href=""><button type="submit" class="btn2" style="position: absolute;width: 130px; height: 40px; right: 100px; top: 70px">予約</button></a><br>
+
+
+<div class="example5">
+    <class="img">
+    <img src="http://2001209.penne.jp/MentaiSand/omiyage/Umegaimochi.jpg" width="200" alt="梅が枝餅">
+    <p>梅が枝餅</p>
+    <img src="http://2001209.penne.jp/MentaiSand/omiyage/Tukushimochi.jpg" width="200" alt="筑紫餅">
+    <p>筑紫餅</p>
+    <img src="http://2001209.penne.jp/MentaiSand/omiyage/Hiyoko.jpg" width="200" alt="ひよこ">
+    <p>ひよこ</p>
+    <img src="http://2001209.penne.jp/MentaiSand/omiyage/Mentaiko.jpg" width="200" alt="めんたいこ">
+    <p>めんたいこ</p>
+    <img src="http://2001209.penne.jp/MentaiSand/omiyage/Tourimon.jpg" width="200" alt="とうりもん">
+    <p>とうりもん</p>
+    <img src="http://2001209.penne.jp/MentaiSand/omiyage/Umakacyan.jpg" width="200" alt="うまかっちゃん">
+    <p>うまかっちゃん</p>
+    <img src="http://2001209.penne.jp/MentaiSand/omiyage/Umenokahijiki.jpg" width="200" alt="梅の実ひじき">
+    <p>梅の実ひじき</p>
+    <img src="http://2001209.penne.jp/MentaiSand/omiyage/image 5.png" width="200" alt="めんべい">
+    <p>めんべい</p>
+</div>
+</body>
+</html>
